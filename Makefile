@@ -18,6 +18,6 @@ spell:
 	aspell -c -t --tex-check-comments -b text.tex
 
 vc:
-	vc-git
+	./vc-git
 
 .PHONY: clean all
