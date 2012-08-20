@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+git fetch -q
+git reset -q --hard HEAD
+
+make pdf &> /dev/null
+echo "Content-type: application/pdf"
+echo
+cat bmh-cv.pdf
