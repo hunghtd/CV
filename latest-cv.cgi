@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-git fetch -q
+git pull -q
 git reset -q --hard HEAD
 
 make pdf &> /dev/null
