@@ -5,6 +5,7 @@ pdf: all
 
 %.pdf: %.tex
 	rubber -fd $<
+	rm -f vc
 
 clean: 
 	rubber -d --clean *.tex
